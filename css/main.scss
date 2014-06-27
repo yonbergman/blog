@@ -286,6 +286,7 @@ a {
     border-radius: 3px;
     font-size: 15px;
     padding: 1px 5px;
+    word-break: break-word;
   }
   ul, ol {
     margin-left: 1.35em;
@@ -617,6 +618,9 @@ header .wrap{
     z-index: 0;
     left: 250px;
     top: -10px;
+    @media screen and (max-width: 600px) {
+      display: none;
+    }
   }
 }
 
@@ -653,6 +657,12 @@ header .wrap{
   }
   h3{
     margin: 0;
+  }
+  @media screen and (max-width: 600px) {
+    p{
+      font-size: 0.7em;
+      margin-left: 150px;
+    }
   }
   overflow: hidden;
   margin-bottom: 10px;
