@@ -1,0 +1,10 @@
+# Site settings
+title: YonBergman.com
+email: yonbergman@gmail.com
+description: "A site for yon"
+baseurl: ""
+url: "http://www.yonbergman.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
