@@ -3,7 +3,6 @@ layout: post
 title: "Trimming the fat from your controllers - Slides"
 date: 2012-11-12 20:43
 comments: true
-categories: talks
 ---
 
 Today I gave a talk on **How to trim the fat from your controllers** at [#railsisrael](http://railsisrael.events.co.il/presentations/551-trimming-the-fat-from-your-controllers).

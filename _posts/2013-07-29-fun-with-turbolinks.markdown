@@ -3,7 +3,6 @@ layout: post
 title: Fun with Turbolinks
 date: 2013-07-29 22:20
 comments: true
-categories: rails turbolinks
 ---
 
 Recently I finished working on a small weekend project based on an idea I've been rolling with for almost 2 years.  

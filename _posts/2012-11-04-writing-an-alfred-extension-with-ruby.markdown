@@ -3,7 +3,6 @@ layout: post
 title: "Writing an Alfred extension with Ruby"
 date: 2012-11-04 23:50
 comments: true
-categories: sideproject, alfred
 ---
 
 *Another month another side project.*
@@ -34,7 +33,7 @@ I now had a script that searched for a query, got the URI, created a temporary A
 
 **Success!**
 
-The only thing left was to package it into an Alfred extension. 
+The only thing left was to package it into an Alfred extension.
 
 ![](/images/posts/alfred-ruby/extension.png)
 
@@ -50,7 +49,7 @@ I found that I can use a HEREDOC to write a multiline string into a file in the 
 ```
 > cat FILENAME <<EOF
   this  
-  is   
+  is
   SPARTA!  
   EOF  
 ```

@@ -3,7 +3,6 @@ layout: post
 title: "Introducing 'O RLY?'"
 date: 2012-06-27 20:15
 comments: true
-categories: gem
 ---
 
 Today I scratched an itch, something that has been bugging me for quite some time now.

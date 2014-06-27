@@ -3,7 +3,6 @@ layout: post
 title: "CREATE • LEARN • DEVELOP - talk from Rails Israel 2013"
 date: 2013-10-29 15:05
 comments: true
-categories: 
 ---
 
 Earlier this month I had the opportunity to give a talk at the Rails Israel conference. I had a great time with all the wonderful people who came there. Big shoutout to all the speakers who came in from all over the world and to [@fogelmania](http://twitter.com/fogelmania) for organising it all.
@@ -18,4 +17,3 @@ I'll be posting a more indepth post about [passion projects](/2013/10/29/passion
 
 Thanks for listening to me babble, hope you liked the talk.  
 You can always find me on twitter [@yonbergman](http://twitter.com/yonbergman).
-

@@ -3,7 +3,6 @@ layout: post
 title: "Why You Should Use Sass"
 date: 2012-05-19 17:20
 comments: true
-categories: [css, web]
 ---
 
 Today I want to talk about [Sass](http://sass-lang.com/), why I love it and why you should use it.

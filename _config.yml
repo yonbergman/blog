@@ -10,6 +10,10 @@ username: 'yonbergman'
 markdown: redcarpet
 permalink: pretty
 
+# comments
+disqus_short_name: yon-line
+
+
 projects:
   - name: 'Mobile & Beer'
     description: 'A Podcast about mobile development (iOS, Android and Web) with friends and beer (in Hebrew).'
