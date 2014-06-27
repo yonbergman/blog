@@ -3,7 +3,6 @@ layout: post
 title: "Upgrading Postgres.app from 9.2 to 9.3"
 date: 2013-11-04 14:53
 comments: true
-categories: tips postgres database
 ---
 
 I love [Postgres.app](http://postgresapp.com/) it really is the quickest and easiest way to get a postgres database running on your mac.  

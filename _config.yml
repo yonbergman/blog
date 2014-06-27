@@ -1,10 +1,11 @@
 # Site settings
-title: YonBergman.com
-email: yonbergman@gmail.com
-description: "A site for yon"
+title: YonBergman
+email: contact@yonbergman.com
+description: "Where we create pretty things and share them"
 baseurl: ""
 url: "http://www.yonbergman.com"
+username: 'yonbergman'
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
