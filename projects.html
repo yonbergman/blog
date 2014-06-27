@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Projects"
+---
+
+<dl class="projects">
+  {% for project in site.projects %}
+  {% if project.category %}
+  <h2>{{ project.category }}</h2>
+  {% endif %}
+  <div class="project">
+    <a href="{{ project.url }}"><img src="{{project.image}}"></img></a>
+    <dt><h3><a href="{{ project.url }}">{{ project.name}}</a></h3></dt>
+    <dd><p>{{ project.description}}</p></dd>
+  </div>
+  {% endfor %}
+</dl>
