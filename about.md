@@ -6,7 +6,7 @@ hide-title: true
 ---
 
 <img src='/images/avatar.jpg' class='big-avatar'></img>
-<h1 class='about-me'>About Me</h1>
+<h1 class='about-me'>About Yon</h1>
 
 Yonatan Bergman is a developer and an amateur designer who loves building cool stuff.  
 By day, he works as a tech-lead at the <a href='http://notninjas.com/'>eBay Israel Innovation Center</a> - a commando unit aiming to produce the next big (awesome) thing.  
