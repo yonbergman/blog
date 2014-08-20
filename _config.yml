@@ -71,7 +71,7 @@ projects:
 
   - name: 'Missiles & Microchips'
     description: "A board game i'm currently developing, more info coming soon"
-    url: 'http://imgur.com/a/MxCvz'
+    url: '/missiles_and_microchips/'
     image: '/images/projects/missiles-and-microchips.png'
 
 #############

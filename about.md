@@ -3,6 +3,7 @@ layout: page
 title: About
 permalink: /about/
 hide-title: true
+header: true
 ---
 
 <img src='/images/avatar.jpg' class='big-avatar'></img>
