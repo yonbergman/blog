@@ -14,6 +14,8 @@ You have many options, whether it's
 [Grape](https://github.com/intridea/grape#restful-model-representations),
 or [Rabl](https://github.com/nesquena/rabl).
 
+<img src='/images/posts/parsing_api/cuneiform.jpg'></img>
+
 I found that [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers) works in a way that best fits me, both from functionality and style perspectives.  
 The issue with these libraries is that they only handle the creation of JSON representations of your data objects in a way that you can pass out, but what about the other way around?  
 When writing an API, you will encounter the need to parse data sent to you from JSON format to something that fits your object model.
@@ -89,7 +91,6 @@ parsed_request.booking[:price_cents]  # 7599
 parsed_request.booking.preorder?      # true
 parsed_request.merge!({foo: :bar})    # {...}
 ```
- 
  
 ## Other Uses
 
