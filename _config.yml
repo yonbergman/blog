@@ -9,10 +9,10 @@ username: 'yonbergman'
 # Build settings
 markdown: redcarpet
 permalink: pretty
+exclude: ['Gemfile', 'Gemfile.lock']
 
 # comments
 disqus_short_name: yon-line
-
 
 projects:
   - name: 'Mobile & Beer'
