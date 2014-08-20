@@ -1,6 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    aws-sdk (1.51.0)
+      json (~> 1.4)
+      nokogiri (>= 1.4.4)
     blankslate (2.1.2.4)
     celluloid (0.15.2)
       timers (~> 1.1.0)
@@ -37,6 +40,7 @@ GEM
       sass (~> 3.2)
     jekyll-watch (1.1.0)
       listen (~> 2.7)
+    json (1.8.1)
     kramdown (1.4.1)
     liquid (2.6.1)
     listen (2.7.9)
@@ -44,10 +48,16 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     mercenary (0.3.4)
+    mini_portile (0.6.0)
+    nokogiri (1.6.3.1)
+      mini_portile (= 0.6.0)
     octopress (3.0.0.rc.14)
       jekyll (~> 2.0)
       mercenary (~> 0.3.2)
       titlecase
+    octopress-deploy (1.0.0.rc.10)
+      colorator
+      octopress (~> 3.0.0.rc.10)
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.9)
@@ -70,4 +80,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  aws-sdk
   octopress (~> 3.0.0.rc.4)
+  octopress-deploy (~> 1.0.0.rc.10)
