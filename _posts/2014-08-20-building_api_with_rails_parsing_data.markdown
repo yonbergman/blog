@@ -2,6 +2,7 @@
 layout: post
 title: "Building an API with Rails: Parsing Data"
 date: 2014-08-20T23:14:32+03:00
+comments: true
 ---
 
 Recently I had the chance of working on a project that was 95% API. 
