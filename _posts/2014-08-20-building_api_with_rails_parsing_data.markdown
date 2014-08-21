@@ -23,9 +23,10 @@ When writing an API, you will encounter the need to parse data sent to you from 
 
 ## Parsing Data
 
-I found that using [Hashie](https://github.com/intridea/hashie) feels like the best tool for the job and fits the style and mirrors using ActiveModel::Serializer on the serializing end.
-Hashie is awesome because it comes with a lot of things out the gate that helps you parse nested data objects, also Hashie has verification and transformation capabilities which are a **must** when working with data passed into your system.
-Hashie also provides a very clean output that both works as a Hash and as an object that you can access like a regular class.
+I found that using [Hashie](https://github.com/intridea/hashie) is the best tool for this job. It fits the style I was looking for and mirrors using ActiveModel::Serializer on the serializing end.
+Hashie is awesome because it comes with a lot of things out the gate that helps you parse nested data objects.
+Hashie has verification and transformation capabilities which are a **must** when working with data passed into your system.
+Hashie also provides a very clean output that both works as a Hash (with indifferent access) `object[:property]` and as an object that you can access like a regular class `object.property`.
 
 Here's an example of parsing a request sent to an imaginary API that books tickets:
 
@@ -68,7 +69,8 @@ end
 This code accepts a JSON and parses the data out into the format that the rest of the system accepts. 
 You can nest as many of these as you want, as we use the Hashie::Trash's transformation block to pass the parsing to a deeper level of the nesting.
 
-It also handles exceptions really well - if a required parameter is missing an `ArgumentError` will be raised and if the user passes any unexpected parameter a `NoMethodError` will be raised.  
+It also handles exceptions really well - if a required parameter is missing an `ArgumentError` will be raised.
+Similarly, if the user passes any unexpected parameter a `NoMethodError` will be raised.  
 You could potentially allow passing of unknown parameters by including a module provided in hashie.
 
 ```ruby
@@ -96,17 +98,17 @@ parsed_request.merge!({foo: :bar})    # {...}
 
 You can also use Hashie to parse responses when you call an API.
 It's super useful especially when working with APIs that have a very standard way to respond.
-I first saw this used in an old version of [Octokit](https://github.com/octokit/octokit.rb/tree/v1.25.0) where they used [Faraday](https://github.com/lostisland/faraday_middleware/blob/master/lib/faraday_middleware/response/mashify.rb) to Mashify the responses from the GitHub API.  
+I first saw this used in an old version of [Octokit](https://github.com/octokit/octokit.rb/tree/v1.25.0) where they used [Faraday](https://github.com/lostisland/faraday_middleware/blob/master/lib/faraday_middleware/response/mashify.rb) to mashify the responses from the GitHub API.  
 *Hashie::Mash* is a more loose version of Hashie::Trash that doesn't support transformations or requires and is useful when you just want to generically wrap a Hash in a more robust interface. Hashie::Mash is also auto deep, meaning that any sub-hashes are also wrapped by the Mash.
 
-When we started wrapping calls to other APIs in our server, we also used Hashie to parse the responses generated, although we used [HTTParty](https://github.com/jnunemaker/httparty) and not Faraday to do the calls. (The code that wrapped the response was delegated to an HTTParty parser, but that's a story for a different blog post.)
+When I started wrapping calls to other APIs in the server, I also used Hashie to parse the responses generated, although I used [HTTParty](https://github.com/jnunemaker/httparty) and not Faraday to do the calls. (The code that wrapped the response was delegated to an HTTParty parser, but that's a story for a different blog post.)
 
 ----
 
 When working on the API, it was very surprising that not many people touched the subject of parsing requests and I hope this helps a few people down the path of building better, more stable APIs... until next time :)   
 You can always find me on twitter [@yonbergman](http://twitter.com/yonbergman).
 
-_P.S._ I'll be speaking at this years' [Golden Gate Ruby Conference](http://gogaruco.com/speakers/#ybergman) in San Francisco in September. It'd be cool to meet you so say hey if you see me walking around the conference hall.
+_P.S._ I'll be speaking at this year's [Golden Gate Ruby Conference](http://gogaruco.com/speakers/#ybergman) in San Francisco in September. It'd be cool to meet you so say hey if you see me walking around the conference hall.
 
   
 
