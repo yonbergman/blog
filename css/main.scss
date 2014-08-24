@@ -70,6 +70,13 @@ a {
   border-bottom: 2px solid #e8e8e8;
   min-height: 56px;
   background-color: white;
+
+  height: 150px;
+//  background: linear-gradient(rgb(71, 175, 142),rgb(63, 185, 146));
+  background: linear-gradient(rgba(56, 123, 185, 0.9), rgb(56, 123, 185));
+  > .wrap{
+    top: 94px;
+  }
 }
 
 .site-title {
@@ -82,20 +89,21 @@ a {
   position: relative;
   z-index: 1;
   font-weight: 700;
+
+  color: white;
   &:hover, &:visited {
     display: block;
     font-weight: 700;
     color: #333;
-    // font-size: 26px;
+
+    color: rgba(white, 0.8);
+
     letter-spacing: -1px;
     float: left;
     line-height: 56px;
     position: relative;
     z-index: 1;
     text-decoration: none;
-  }
-  &:hover{
-    color:#666;
   }
 }
 
@@ -109,6 +117,8 @@ a {
     margin-left: 20px;
     color: #727272;
     letter-spacing: -0.5px;
+
+    color: white;
   }
 }
 
@@ -565,6 +575,9 @@ a {
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #e8e8e8;
+
+    top: 104px;
+
     .menu-icon {
       display: block;
       font-size: 24px;
@@ -592,6 +605,7 @@ a {
       line-height: 1.25;
       padding: 5px 10px;
       margin: 0;
+      color: #727272;
     }
   }
   .post-header h1 {
@@ -628,9 +642,44 @@ header .wrap{
     z-index: 0;
     left: 250px;
     top: -10px;
-    @media screen and (max-width: 600px) {
+    background: url('/images/doodle-me.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    width: 140px;
+    height: 133px;
+    left: 227px;
+    top: -77px;
+  @media screen and (max-width: 600px) {
       display: none;
     }
+
+    &.interactive{
+      background: url('/images/doodle-eyeless.png');
+      background-size: 100%;
+      &:after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url('/images/doodle-eyes.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        transition: top 400ms, left 400ms;
+      }
+    }
+    &.tl  { &:after { top: -2px; left: -2px; }}
+    &.tc  { &:after { top: -2px; left: 0; }}
+    &.tr  { &:after { top: -2px; left: 2px; }}
+    &.ml  { &:after { top: +0px; left: -2px; }}
+    &.mc  { &:after { top: +0px; left: 0; }}
+    &.mr  { &:after { top: +0px; left: 2px; }}
+    &.bl  { &:after { top: +2px; left: -2px; }}
+    &.bc  { &:after { top: +2px; left: 0; }}
+    &.br  { &:after { top: +2px; left: 2px; }}
   }
 }
 
