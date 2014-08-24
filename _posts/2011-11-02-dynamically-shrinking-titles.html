@@ -15,7 +15,7 @@ permalink: /dynamically-shrinking-titles
 <p>My first solution was to try and integrate <a href="http://www.zachleat.com/web/bigtext-makes-text-big/">BigText</a>&nbsp;into the page, but BigText isn't a great solution and about 1 in every 10 titles came out cropped a bit on the side.</p>
 <p>So here's my simple solution for creating dynamicly shrinking titles which don't distort the page's layout.</p>
 <p>I use an outer div to enforce the size that I want and make sure that even if the inner title is more than one line - you won't see all the other lines and the page won't distort.&nbsp;I then resize the title until it fits inside the space I want it to :)&nbsp;</p>
-<img src="/images/diagarm.png.scaled500.png">
+<img src="/images/posts/diagarm.png.scaled500.png">
 <p><strong style="text-decoration: underline;">HTML</strong><span style="text-decoration: underline;"> (HAML)</span> -&nbsp;The html for the page is really straight foreward. Just wrap your header with a div</p>
 <script src="https://gist.github.com/1333205.js?file=dst.haml"></script>
 <p>&nbsp;</p>
