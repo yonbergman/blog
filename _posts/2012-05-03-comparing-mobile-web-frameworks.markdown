@@ -9,6 +9,8 @@ I wanted to share my recent experiences with building mobile web ui's.
 I experienced working with three different methods of building mobile ui some of them during my day-time job and some on my weekend hacks.
 I'll try to give the pros and cons for each method and framework and let you decide which ones fits your project best.
 
+<!--more-->
+
 ![Developing web UI](/images/posts/comparing-web-ui/twitter.JPG)
 **TL;DR** - Mobile Web frameworks are cool, kind of like using Twitter Bootstrap.
 I'm gonna go with building without a framework for most stuff.

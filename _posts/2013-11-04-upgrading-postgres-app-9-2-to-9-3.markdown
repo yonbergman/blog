@@ -8,6 +8,7 @@ comments: true
 I love [Postgres.app](http://postgresapp.com/) it really is the quickest and easiest way to get a postgres database running on your mac.  
 But I just had some bad time upgrading from Postgres.app 9.2 to 9.3.  
 So I wrote this short step by step guide to help you upgrade your database without losing all the data you already have there.
+<!--more-->
 
 * **Step 1** - Make sure your PG binaries are linked correctly into your PATH and that you'll be using the correct `psql` and `pg_upgrade` commands by checking that the following line appears in your `.profile`, `.bashrc`, `.zshrc` (which ever you use)  `PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"`  
 * **Step 2** - Open a new terminal window and run `which psql` it should point to `/Applications/Postgres.app/Contents/MacOS/bin/psql` - If it doesn't check Step 0 again.

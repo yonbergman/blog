@@ -5,13 +5,15 @@ date: 2012-06-27 20:15
 comments: true
 ---
 
+<img src='/images/posts/orly/owl.png' class='pull-right'/>
+
 Today I scratched an itch, something that has been bugging me for quite some time now.
 
-
-![](/images/posts/orly/owl.png)
 Sometimes I _pull_ a new version of a project and try to run it only to get an annoying _'Run bundle install...'_ message
 or worse an app that starts running but then starts to spazz when you do anything just because no one told you that you needed to run `rake db:migrate`
 So I built a small gem to help me exactly with these issues :)
+
+<!--more-->
 
 __O RLY?__ or __orly__ for short, is a simple utlitly gem you use to install git-hooks into your git repositories.
 Every time you either `git pull` or `git merge` _(pull acutally runs a merge)_ orly goes over the changes and notifies you when there are any commands you need to run.

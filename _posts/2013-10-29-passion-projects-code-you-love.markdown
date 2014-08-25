@@ -5,10 +5,10 @@ date: 2013-10-29 16:15
 comments: true
 ---
 
-![](/images/posts/passion-projects/2.png)
 Earlier this month I gave a talk at Rails Israel.  
 And while trying to come up with an idea for the talk I found myself coming back again and again to the same concept.
 The one thing that makes my current job feel so different and special then any other job - and that's passion projects.
+<!--more-->
 
 You can view both the video and slides [here](/2013/10/29/create-learn-develop-talk-from-railsisrael-2013).  
 But I really wanted to give a more indepth post about my  musings.  
@@ -29,7 +29,7 @@ From this experience and from the last 3 years I started categorising passion pr
 ![](/images/posts/passion-projects/a.jpg)
 ### CREATE
 These are projects where we feed our need to build cool stuff.
-Whether we want to build a [coffee infographic](http://www.coffeespec.com/) because no one makes you your coffee just like you want to drink it,
+Whether we want to build a [coffee infographic](http://coffee-spec.herokuapp.com/) because no one makes you your coffee just like you want to drink it,
 or maybe you write a [small command line utility](https://github.com/yonbergman/orly) because you're sick and tired of getting warning because you forgot to run `rake db:migrate` after you pulled the latest version of the code from the repo.
 
 As developers we have a unique ability - we can solve a lot of our own issues. If something annoys you during your normal flow, solve it. If you have a cool idea, build it. And if you have a scratch to itch, scratch it :)

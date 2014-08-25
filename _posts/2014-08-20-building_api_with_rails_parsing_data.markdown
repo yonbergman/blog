@@ -9,12 +9,13 @@ Recently I had the chance of working on a project that was 95% API.
 There are tons of blog posts on the best practices behind building an API with Rails. Most of them have a lot of very cool info on things from security, versioning and auditing calls.
 Many of the guides mention the importance of using a serializer that's more complex and feature-full than Rails' standard `respond_to` and `.to_json`. 
 
+
 You have many options, whether it's
 [JBuilder](https://github.com/rails/jbuilder), 
 [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers), 
 [Grape](https://github.com/intridea/grape#restful-model-representations),
 or [Rabl](https://github.com/nesquena/rabl).
-
+<!--more-->
 <img src='/images/posts/parsing_api/cuneiform.jpg'></img>
 
 I found that [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers) works in a way that best fits me, both from functionality and style perspectives.  

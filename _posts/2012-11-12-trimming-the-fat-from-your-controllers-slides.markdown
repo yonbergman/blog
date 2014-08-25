@@ -11,7 +11,9 @@ It was a real fun conference and it was awesome meeting lots of passionate Ruby 
 
 Hope you enjoyed my talk - would love to get feedback.
 
-I will post a more indepth look at improving controllers and extracting code soon and I'll update here when it's up.
+<!--more-->
+
+I will post a more in depth look at improving controllers and extracting code soon and I'll update here when it's up.
 
 So follow me on twitter [@YonBergman](http://twitter.com/yonbergman) and subscribe to my [RSS](http://feeds.feedburner.com/Yon-line)
 

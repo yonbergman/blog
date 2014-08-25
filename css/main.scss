@@ -214,6 +214,11 @@ a {
   list-style-type: none;
   li {
     margin-bottom: 30px;
+    &.post-excerpt{
+      padding-bottom: 25px;
+      border-bottom: 1px solid rgb(236, 236, 236);
+      margin-bottom: 25px;
+    }
   }
   .post-link {
     font-size: 24px;
@@ -566,7 +571,7 @@ a {
     padding: 0 12px;
   }
   .site-nav {
-    position: fixed;
+    position: absolute;
     z-index: 10;
     top: 14px;
     right: 8px;
@@ -575,8 +580,6 @@ a {
     -moz-border-radius: 5px;
     border-radius: 5px;
     border: 1px solid #e8e8e8;
-
-    top: 104px;
 
     .menu-icon {
       display: block;
@@ -751,4 +754,9 @@ h1.about-me{
 
 .clear-fix{
   clear: both;
+}
+
+.text-right{
+  display: block;
+  text-align: right;
 }

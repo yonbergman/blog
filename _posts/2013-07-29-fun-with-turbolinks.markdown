@@ -5,8 +5,9 @@ date: 2013-07-29 22:20
 comments: true
 ---
 
-Recently I finished working on a small weekend project based on an idea I've been rolling with for almost 2 years.  
-It's called [__Coffee.Spec__](http://www.coffeespec.com/) and it lets you create stunning coffee infographic posters for your office.
+I recently finished working on a small weekend project based on an idea I've been rolling with for almost 2 years.  
+It's called [__Coffee.Spec__](http://coffee-spec.herokuapp.com/) and it lets you create stunning coffee infographic posters for your office.
+<!--more-->
 
 ![](/images/posts/coffeespec/v1.jpg)
 
@@ -24,7 +25,7 @@ That's why while looking for a weekend project to test Rails 4 on this idea came
 
 This was my first experience with Rails 4.0 and more specifically Turbolinks and it was AWESOME.
 
-Also now **(Jul 2013)** we have the **Best** coffee infographic for our office hanging on our fridge, and the awesomest part is that you can have one too by visiting [http://coffeespec.com](http://www.coffeespec.com/)
+Also now **(Jul 2013)** we have the **Best** coffee infographic for our office hanging on our fridge, and the awesomest part is that you can have one too by visiting [http://coffee-spec.herokuapp.com/](http://coffee-spec.herokuapp.com/)
 
 
 

@@ -8,6 +8,7 @@ comments: true
 Earlier this month I had the opportunity to give a talk at the Rails Israel conference. I had a great time with all the wonderful people who came there. Big shoutout to all the speakers who came in from all over the world and to [@fogelmania](http://twitter.com/fogelmania) for organising it all.
 
 Here are the slides and a video from the talk.
+<!--more-->
 I'll be posting a more indepth post about [passion projects](/2013/10/29/passion-projects-code-you-love/), the subject of the talk along side this post.
 
 <script async class="speakerdeck-embed" data-id="a5028c9013020131b9aa3e3d4895b539" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>

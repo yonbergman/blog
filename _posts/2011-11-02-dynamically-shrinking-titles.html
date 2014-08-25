@@ -12,6 +12,7 @@ permalink: /dynamically-shrinking-titles
 ---
 <p>Hey, I wanted to share with you a cool trick I found for creating shrinking titles in a web page.</p>
 <p>My problem was that I had to implement a page which had a title which content was based on an eBay item name and I couldn't control the amount of text in it. The design was it to fit a specific space in the page and be a certain size and color.&nbsp;The other thing that I really didn't want my page layout to jump around because of the title.</p>
+<!--more-->
 <p>My first solution was to try and integrate <a href="http://www.zachleat.com/web/bigtext-makes-text-big/">BigText</a>&nbsp;into the page, but BigText isn't a great solution and about 1 in every 10 titles came out cropped a bit on the side.</p>
 <p>So here's my simple solution for creating dynamicly shrinking titles which don't distort the page's layout.</p>
 <p>I use an outer div to enforce the size that I want and make sure that even if the inner title is more than one line - you won't see all the other lines and the page won't distort.&nbsp;I then resize the title until it fits inside the space I want it to :)&nbsp;</p>

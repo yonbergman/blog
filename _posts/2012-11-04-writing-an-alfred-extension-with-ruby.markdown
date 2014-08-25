@@ -9,6 +9,7 @@ comments: true
 
 **TL;DR** - I created an Alfred extension in Ruby, it's easy you can fork my base to create your own.  
 If you just want the Spotify finder extension [download it](https://github.com/yonbergman/alfred_spotify_finder/raw/master/Spotify%20Finder.alfredextension)
+<!--more-->
 
 I love [Alfred](http://www.alfredapp.com/),  
 It's a great tool - I use it for tons of different stuff: Running programs, controlling my music, basic math and as a file manager.

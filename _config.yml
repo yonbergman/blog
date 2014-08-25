@@ -1,7 +1,7 @@
 # Site settings
 title: YonBergman
 email: contact@yonbergman.com
-description: "Where we create pretty things and share them"
+description: "I like to create awesome things and share them"
 baseurl: ""
 url: "http://www.yonbergman.com"
 username: 'yonbergman'
@@ -10,6 +10,8 @@ username: 'yonbergman'
 markdown: redcarpet
 permalink: pretty
 exclude: ['Gemfile', 'Gemfile.lock']
+excerpt_separator: <!--more-->
+
 
 # comments
 disqus_short_name: yon-line
@@ -34,7 +36,7 @@ projects:
 
   - name: 'Coffee.spec'
     description: 'Create stunning coffee inforgraphics for your office'
-    url: 'http://coffeespec.herokuapp.com/'
+    url: 'http://coffee-spec.herokuapp.com/'
     image: '/images/projects/coffeespec.png'
 
   - name: 'TLV-Streets'
