@@ -242,6 +242,10 @@ a {
   }
   .post-link {
     color: black;
+    text-decoration: underline;
+    &:hover{
+      text-decoration: none;
+    }
   }
   .post-excerpt{
     color: black;
