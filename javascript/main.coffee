@@ -18,7 +18,7 @@ class MovingDoodle
     eyeImg.src =  @EYES_SRC
 
   loadingDone:  =>
-    @el.classList.add("interactive")
+    @el.classList.add("interactive", "blink")
     @startFollowingMouse()
 
   startFollowingMouse: =>

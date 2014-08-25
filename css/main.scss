@@ -4,6 +4,28 @@
 $code-border: rgba(0,0,0,0.00);
 $code-background: rgba(0,0,0,0.04); //#eef;
 
+@-webkit-keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+@keyframes blink {
+  0%, 50%, 100% { opacity: 1; }
+  25%, 75% { opacity: 0; }
+}
+
+@mixin mobile(){
+  @media screen and (max-width: 600px) {
+    @content
+  }
+}
+
+@mixin tablet(){
+  @media screen and (max-width: 750px) {
+    @content
+  }
+}
+
 /* Base */
 /* ----------------------------------------------------------*/
 
@@ -68,29 +90,35 @@ a {
 
 .site-header {
   border-bottom: 2px solid #e8e8e8;
-  min-height: 56px;
-  background-color: white;
+  height: 250px;
+  background: rgb(117,185,131);
 
-  height: 150px;
-//  background: linear-gradient(rgb(71, 175, 142),rgb(63, 185, 146));
-  background: linear-gradient(rgba(56, 123, 185, 0.9), rgb(56, 123, 185));
+  @include mobile() {
+    height: 150px;
+  }
+
   > .wrap{
-    top: 94px;
+    top: 194px;
+    @include mobile() {
+      top: 94px;
+    }
   }
 }
 
 .site-title {
   display: block;
-  color: #333;
+  color: white;
   font-size: 2em;
   letter-spacing: -1px;
   float: left;
-  line-height: 56px;
+  line-height: 50px;
   position: relative;
   z-index: 1;
   font-weight: 700;
+  @include mobile(){
+    line-height: 56px;
+  }
 
-  color: white;
   &:hover, &:visited {
     display: block;
     font-weight: 700;
@@ -100,7 +128,6 @@ a {
 
     letter-spacing: -1px;
     float: left;
-    line-height: 56px;
     position: relative;
     z-index: 1;
     text-decoration: none;
@@ -208,6 +235,18 @@ a {
 
 .home h1 {
   margin-bottom: 25px;
+}
+.index {
+  .post-date{
+    margin-bottom: 15px;
+  }
+  .post-link {
+    color: black;
+  }
+  .post-excerpt{
+    color: black;
+    text-decoration: none;
+  }
 }
 
 .posts {
@@ -546,7 +585,7 @@ a {
 /* media queries */
 /* ----------------------------------------------------------*/
 
-@media screen and (max-width: 750px) {
+@include tablet(){
   .footer-col-1 {
     width: 50%;
   }
@@ -566,7 +605,7 @@ a {
   }
 }
 
-@media screen and (max-width: 600px) {
+@include mobile(){
   .wrap {
     padding: 0 12px;
   }
@@ -640,20 +679,24 @@ a {
 header .wrap{
   position:relative;
   .avatar{
-    width: 70px;
     position: absolute;
     z-index: 0;
-    left: 250px;
-    top: -10px;
     background: url('/images/doodle-me.png');
     background-size: 100%;
     background-repeat: no-repeat;
 
-    width: 140px;
-    height: 133px;
+    width: 200px;
+    height: 190px;
     left: 227px;
-    top: -77px;
-  @media screen and (max-width: 600px) {
+    top: -135px;
+
+    @include tablet(){
+      width: 140px;
+      height: 133px;
+      top: -77px;
+    }
+
+    @include mobile() {
       display: none;
     }
 
@@ -684,8 +727,17 @@ header .wrap{
     &.bl  { &:after { top: +2px; left: -2px; }}
     &.bc  { &:after { top: +2px; left: 0; }}
     &.br  { &:after { top: +2px; left: 2px; }}
+
+    &.blink {
+      &:after{
+        animation: blink 800ms;
+        -webkit-animation: blink 800ms;
+      }
+    }
   }
 }
+
+
 
 .post-content{
   img{

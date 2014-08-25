@@ -14,7 +14,9 @@ layout: default
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <div class="post">
-            {{ post.excerpt }}
+            <a class='post-excerpt' href="{{ post.url | prepend: site.baseurl }}">
+                {{ post.excerpt | remove: '<p>' | remove: '</p>' }}
+            </a>
         </div>
       </li>
     {% endfor %}
