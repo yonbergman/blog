@@ -10,6 +10,7 @@ Sass is a css preprocessor, meaning it's a file format which you compile to css 
 Sass comes in two syntaxes `.scss` and the older syntax `.sass` also called indented Sass, whenever you hear people talking about Sass they're
 probably talking about the newer syntax.
 In this post I'll be referring only to the `.scss` syntax.
+
 <!--more-->
 
 # Why I love Sass

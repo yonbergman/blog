@@ -15,7 +15,9 @@ You have many options, whether it's
 [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers), 
 [Grape](https://github.com/intridea/grape#restful-model-representations),
 or [Rabl](https://github.com/nesquena/rabl).
+
 <!--more-->
+
 <img src='/images/posts/parsing_api/cuneiform.jpg'></img>
 
 I found that [ActiveModel::Serializer](https://github.com/rails-api/active_model_serializers) works in a way that best fits me, both from functionality and style perspectives.  

@@ -7,6 +7,7 @@ comments: true
 
 I recently finished working on a small weekend project based on an idea I've been rolling with for almost 2 years.  
 It's called [__Coffee.Spec__](http://coffee-spec.herokuapp.com/) and it lets you create stunning coffee infographic posters for your office.
+
 <!--more-->
 
 ![](/images/posts/coffeespec/v1.jpg)

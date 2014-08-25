@@ -8,6 +8,7 @@ comments: true
 Earlier this month I gave a talk at Rails Israel.  
 And while trying to come up with an idea for the talk I found myself coming back again and again to the same concept.
 The one thing that makes my current job feel so different and special then any other job - and that's passion projects.
+
 <!--more-->
 
 You can view both the video and slides [here](/2013/10/29/create-learn-develop-talk-from-railsisrael-2013).  
