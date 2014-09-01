@@ -2,7 +2,9 @@
 ---
 
 $code-border: rgba(0,0,0,0.00);
-$code-background: rgba(0,0,0,0.04); //#eef;
+$code-background: rgba(0,0,0,0.04);
+$background: rgb(117, 185, 131);
+//#eef;
 
 @-webkit-keyframes blink {
   0%, 50%, 100% { opacity: 1; }
@@ -91,7 +93,7 @@ a {
 .site-header {
   border-bottom: 2px solid #e8e8e8;
   height: 250px;
-  background: rgb(117,185,131);
+  background: $background;
 
   @include mobile() {
     height: 150px;
@@ -703,6 +705,18 @@ header .wrap{
     @include mobile() {
       display: none;
     }
+    .error-page &{
+      &:before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: url('/images/doodle-oops.png');
+        background-size: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+      }
+    }
 
     &.interactive{
       background: url('/images/doodle-eyeless.png');
@@ -815,4 +829,63 @@ h1.about-me{
 .text-right{
   display: block;
   text-align: right;
+}
+
+.error-page{
+  background: $background;
+  header{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    background: none;
+    .site-nav{
+      display: none;
+    }
+    .avatar{
+      left: auto;
+      right: 0;
+      display: block;
+    }
+    .site-title{
+      position: absolute;
+      bottom: -42px;
+      right: 180px;
+      @include tablet{
+        right: 150px;
+      }
+      @include mobile{
+        left: 10px;
+        font-size: 1.8em;
+      }
+    }
+  }
+  .page-content{
+    position: relative;
+    background: none;
+    font-size: 2.4em;
+    color: white;
+    z-index: 100;
+    h1{
+      font-weight: 800;
+      font-size: 7em;
+      position: absolute;
+      opacity: 0.2;
+      pointer-events: none;
+      @include tablet{ font-size: 6em;}
+      @include mobile{ font-size: 3.5em;}
+    }
+    h2{
+      @include mobile{ font-size: 0.6em;}
+
+    }
+    h3{
+      font-size: 0.75em;
+      @include mobile{ font-size: 0.4em;}
+    }
+  }
+  footer{
+    display: none;
+  }
 }
