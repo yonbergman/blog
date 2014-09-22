@@ -93,7 +93,7 @@ You can go to `app/views/pages/home.html.erb` to write whatever content you want
 ### Integrating your Flickr lib
 
 We now want to integrate our Flickr library with our new site.  
-If you don't have a Flickr class you can use one I made [flickr_class.rb](/workshop/fickr_class.rb)
+If you don't have a Flickr class you can use one I made [flickr_class.rb](/workshop/flickr_class.rb)
 
 We start by copying our flickr class file to the /lib folder.  
 make sure to add any gems you used to the `Gemfile` and run `bundle install`
