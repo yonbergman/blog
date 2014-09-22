@@ -4,7 +4,7 @@ title: Exercise 2
 hide-title: true
 header: false
 ---
-## Exercise 2 - Ideation web app
+## Exercise 2 - Ideation App - First Steps
 
 This exercise will let you build your first Rails app.
 
@@ -21,7 +21,7 @@ We'll then create our very first app by running the following command in the `02
 rails new ideation -m http://www.yonbergman.com/workshop/template.rb
 ```
 
-Go into the new ideation folder created in the terminal
+Go into the new `/ideation` folder created in the terminal
 and also open it up with your text editor.
 Go over the directory strucutre and see all that we've created.
 
@@ -43,4 +43,4 @@ This first generates the required migration commands and models in the system, a
 Start your server again with `rails server` and visit
 [http://localhost:3000/ideas](http://localhost:3000/ideas)
 
-Play around with what the scaffold created for you.
+Play around with your new site. Create at least 5 ideas. (You may leave the image field empty for now).
