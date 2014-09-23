@@ -39,8 +39,3 @@ get '/auth/:provider/callback', to: 'sessions#create'
 
 We can now access the `auth_hash` inside the session create method.  
 We can use `model.where(something).first_or_create` to get a copy of the model that has certain attributes - by getting an existing one or a creating a new one if needed.
-
-
-### Deploying to Heroku
-
-We will be deploying our sites to [Heroku](/workshop/heroku)
