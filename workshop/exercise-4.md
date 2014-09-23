@@ -46,7 +46,7 @@ Import Bootstrap styles in `app/assets/stylesheets/application.css.scss` (rename
 
 Bootstrap should now work in the app.
 
-We will wrap the main yield in `app/view/layouts/index.html.erb` and wrap the yield with
+We will wrap the main yield in `app/view/layouts/application.html.erb` and wrap the yield with
 
 ```
 <div class='container'>
