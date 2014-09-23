@@ -42,3 +42,5 @@ We can use `model.where(something).first_or_create` to get a copy of the model t
 
 
 ### Deploying to Heroku
+
+We will be deploying our sites to [Heroku](/workshop/heroku)

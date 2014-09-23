@@ -11,5 +11,6 @@ header: false
 * [Exercise 1 - Flickr Image Finder](/workshop/exercise-1)
 * [Exercise 2 - Ideation App - Part 1](/workshop/exercise-2)
 * [Exercise 3 - Ideation App - Part 2](/workshop/exercise-3)
-* [Exercise 4 - Ideation App - Part 3 (coming tomorrow)](#)
-* [Exercise 4 - Ideation App - Part 4 (coming tomorrow)](#)
+* [CSS Diner](http://flukeout.github.io/)
+* [Exercise 4 - Ideation App - Part 3](/workshop/exercise-4)
+* [Exercise 5 - Ideation App - Part 4](/workshop/exercise-5)
