@@ -33,7 +33,7 @@ And run `bundle install` to install all of them.
 
 We'll start with a bit of bootstrapping - [http://getbootstrap.com/](http://getbootstrap.com/)
 
-A cool site to get a color pallet from - [google.com/design](www.google.com/design/spec/style/color.html#color-ui-color-palette)
+A cool site to get a color pallet from - [google.com/design](http://www.google.com/design/spec/style/color.html#color-ui-color-palette)
 
 Bootstrap is CSS library that we use that lets us use bootstrap through the app.
 
