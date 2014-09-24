@@ -4,6 +4,13 @@ title: Ruby Workshop
 header: false
 ---
 
+## Slides
+
+* [Slides - Part 1](/workshop/workshop-I.pdf)
+* [Slides - Part 2](/workshop/workshop-II.pdf)
+* [Slides - Part 3](/workshop/workshop-III.pdf)
+* [Slides - Part 4](/workshop/workshop-IV.pdf)
+
 ## Resources
 
 * [Installing Ruby](/workshop/installing-ruby)
@@ -15,3 +22,9 @@ header: false
 * [Exercise 4 - Ideation App - Part 3](/workshop/exercise-4)
 * [Exercise 5 - Ideation App - Part 4](/workshop/exercise-5)
 * [Exercise 6 - Ideation App - Deploying to Heroku](/workshop/heroku)
+
+## Code Examples
+
+Sample for all parts of the exercises are available at
+
+* [ybergman/ruby-workshop-2014](https://github.ebay.com/ybergman/ruby-workshop-2014)
