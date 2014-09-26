@@ -17,4 +17,8 @@ I will post a more in depth look at improving controllers and extracting code so
 
 So follow me on twitter [@YonBergman](http://twitter.com/yonbergman) and subscribe to my [RSS](http://feeds.feedburner.com/Yon-line)
 
+<h3>Slides:</h3>
 <script async class="speakerdeck-embed" data-id="1346f4300f250130018822000a1f82fb" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
+
+<h3>Video:</h3>
+<iframe width="560" height="315" src="//www.youtube.com/embed/aPqKUAP-MTo?rel=0" frameborder="0" allowfullscreen></iframe>

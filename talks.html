@@ -1,0 +1,15 @@
+---
+layout: page
+title: "Talks"
+header: true
+---
+
+<dl class="talks">
+  {% for talk in site.talks %}
+  <div class="talk">
+    <a href="{{ talk.link }}"><img src="{{ talk.image }}"></img></a>
+    <dt><h3><a href="{{ talk.link }}">{{ talk.name }}</a></h3></dt>
+    <dd><span>{{ talk.where }}</span><br/><small>{{ talk.when }}</small></dd>
+  </div>
+  {% endfor %}
+</dl>
