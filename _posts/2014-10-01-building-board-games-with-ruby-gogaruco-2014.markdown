@@ -20,7 +20,7 @@ In my talk I shared the story of how I built and designed my first board game, h
 I started with a short intro to board gaming right now, what goes into making a game and I continued with my experiences while building [Missiles & Microchips](/missiles_and_microchips).
 
 ## Video
-COMING SOON
+<iframe width="560" height="315" src="//www.youtube.com/embed/EcnvbsXdbtI?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ## Slides
 <script async class="speakerdeck-embed" data-id="a655fd5022790132ff8e7a94a7c4ee2d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
