@@ -21,7 +21,7 @@ talks:
   - name: 'Building Board Games with Ruby'
     when: '19th–20th September 2014'
     where: 'GoGaRuCo 2014'
-    link: '/posts/building-board-games-with-ruby'
+    link: '/2014/10/01/building-board-games-with-ruby-gogaruco-2014/'
     image: '/images/talks/building-board-games-with-ruby.png'
 
   - name: 'CREATE • LEARN • DEVELOP'
