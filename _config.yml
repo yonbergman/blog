@@ -18,10 +18,16 @@ disqus_short_name: yon-line
 
 
 talks:
+  - name: 'Meiosis in Rails Apps'
+    when: 'November 4th 2014'
+    where: 'Rails Israel 2014'
+    link: '/2014/11/09/meiosis-in-rails-apps'
+    image: '/images/talks/meiosis-in-rails-apps.png'
+
   - name: 'Building Board Games with Ruby'
     when: '19th–20th September 2014'
     where: 'GoGaRuCo 2014'
-    link: '/2014/10/01/building-board-games-with-ruby-gogaruco-2014/'
+    link: '/2014/10/01/building-board-games-with-ruby-gogaruco-201'
     image: '/images/talks/building-board-games-with-ruby.png'
 
   - name: 'CREATE • LEARN • DEVELOP'
