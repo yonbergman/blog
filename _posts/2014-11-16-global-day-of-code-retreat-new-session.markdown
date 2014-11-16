@@ -33,16 +33,16 @@ So in this year's coderetreat at the end of the 4th session (Evil mute programme
 After the retrospective for the 4th session we kicked of the 5th session by welcoming everyone to their new job at Initech and assuring them that the legacy system they're going to be working on for the next session was built by our best people :)
 
 ![](/images/posts/gdcr/choose.png)
-In this 5th session they would be receiving a random zip file containing the code from one of the other pairs in the previous session and they had to complete the code while fitting the code to a new constraint (they now have to support an sized infinite world.)
+In this 5th session they would be receiving a random zip file containing the code from one of the other pairs in the previous session and they had to complete the code while fitting the code to a new constraint (they now have to support a sized infinite world.)
 ![](/images/posts/gdcr/download.png)
-This session was a blast, almost as fun as the evil mute programmer one - people had the chance to receive code that had tests (even though they it didn't always pass) and have to adapt someone else's code. It really helped keep the excitement from the 4th session alive and had people very energetic all the way to the end of the coderetreat.
+This session was a blast, almost as fun as the evil mute programmer one - people had the chance to receive code that had tests (even though they they didn't always pass) and have to adapt someone else's code. It really helped keep the excitement from the 4th session alive and had people very energetic all the way to the end of the coderetreat.
 
 
 ### Building the site
 The mini-site is very simple, it's a single page application written with Backbone, Coffeescript, SASS, HAML & Parse.com.
-It isn't the nicest piece of code but I built in a couple of hours and it works.  
-I choose to use Parse as a database/backend mostly because I wanted to try it out and it was a delightful experience. It was super easy to get going with Parse as a simple data storage and even easier to integrate it with Backbone.  
-It was along time since I've done Backbone without Marionette - and I really can't see how one can do that in a real project. [Marionette](http://marionettejs.com/) just solves so much of the cruft that comes out of working with Backbone.
+It isn't the nicest piece of code but I built it in a couple of hours and it works.  
+I chose to use Parse as a database/backend mostly because I wanted to try it out and it was a delightful experience. It was super easy to get going with Parse as a simple data storage and even easier to integrate it with Backbone.  
+It was a long time since I've done Backbone without Marionette - and I really can't see how one can do that in a real project. [Marionette](http://marionettejs.com/) just solves so much of the cruft that comes out of working with Backbone.
 
 ![](/images/posts/gdcr/parse.png)
 
