@@ -70,10 +70,15 @@ projects:
     url: 'http://www.tlv-streets.co.il/'
     image: '/images/projects/tlv-streets.png'
 
-  - name: 'Project Atlas'
-    description: "A card reference app for Fantasy Flight's Android: Netrunner LCG. Mostly an experiment in Swift."
-    url: 'https://github.com/yonbergman/project-atlas'
-    image: '/images/projects/project-atlas.png'
+  - name: 'NetConsole'
+    description: "A card reference app for Fantasy Flight's Android: Netrunner LCG."
+    url: 'https://itunes.apple.com/us/app/netconsole-card-browser-for/id933546332?mt=8'
+    image: '/images/projects/netconsole.png'
+
+  - name: 'GRNDL.net'
+    description: "A suite of Netrunner related sideprojects."
+    url: 'http://www.grndl.net/'
+    image: '/images/projects/grndl.png'
 
   - name: 'News Yeti'
     description: "Quickly and easily create news bites, short and to the point mini news stories that you can share with people across the internet."
@@ -101,6 +106,11 @@ projects:
     description: "A board game i'm currently developing, more info coming soon"
     url: '/missiles_and_microchips/'
     image: '/images/projects/missiles-and-microchips.png'
+
+  - name: 'AppAtk'
+    description: "A small game build for LudumDare24"
+    url: 'http://rothschildgames.github.io/appatk/'
+    image: '/images/projects/appatk.png'
 
 #############
   - name: 'Enumify'
