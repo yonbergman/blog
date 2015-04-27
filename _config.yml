@@ -108,9 +108,14 @@ projects:
     image: '/images/projects/missiles-and-microchips.png'
 
   - name: 'AppAtk'
-    description: "A small game build for LudumDare24"
+    description: "A small tower defense game, right on your home screen!.<br/>Built for Ludum Dare 31"
     url: 'http://rothschildgames.github.io/appatk/'
     image: '/images/projects/appatk.png'
+
+  - name: 'Paperwork'
+    description: "A fun little bureaucracy simulator.<br/>Built for Ludum Dare 32"
+    url: 'http://rothschildgames.github.io/paperwork/'
+    image: '/images/projects/paperwork.png'
 
 #############
   - name: 'Enumify'
