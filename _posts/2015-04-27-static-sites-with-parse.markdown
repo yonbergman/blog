@@ -4,15 +4,19 @@ title: "Static Sites with Parse"
 date: 2015-04-27T29:34:41+02:00
 ---
 
-Lately I've been really enjoying building my side projects on [Parse](http://parse.com) as opposed to using Heroku. There are several reasons I enjoy using Parse:
-
-* It makes me build sites that easily withstand greater traffic since they're mostly static
-* I get to play around and practice my server side javascript
-* Parse has a great offering for managing so many things (The built-in admin & analytics are a blast)
-
-But it hasn't all been a walk on the beach. I've encountered several issues when building static sites and I wanted to share two tricks for building better sites on Parse.
+Lately I've been really enjoying building my side projects on [Parse](http://parse.com) as opposed to using Heroku. But it hasn't all been a walk on the beach. I've encountered several issues when building static sites and I wanted to share two tricks for building better sites on Parse.
 
 <!--more-->
+
+First I wanted to share a few of the reasons why I enjoy using Parse:
+
+* It makes me build sites that easily withstand greater traffic since they're mostly static
+* I can host the static sites wherever I want Parse/S3/VPS
+* I get to play around and hone my server side javascript skills
+* Parse has a great offering for managing so many things (The built-in admin & analytics are a blast)
+
+![](/images/posts/parse/sea.png)
+<small class='text-center'>An actual walk on the beach</small>
 
 ## Separating the code into multiple files
 
@@ -129,6 +133,8 @@ Now that we have a Middleman app ready and shared code between client and server
 
 We just need to make sure you configure your Parse app to server static content and we're good to go :)
 
+![](/images/posts/parse/eize.jpg)
+<small class='text-center'>A site developed in Middleman & Parse</small>
 
 ----
 
