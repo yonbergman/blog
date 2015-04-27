@@ -23,9 +23,8 @@ First I wanted to share a few of the reasons why I enjoy using Parse:
 
 One of the most basic things for a developer's sanity is not to have all the code in one huge file, a guideline much easier said than followed in Parce. While the Parse documentation is incredibly good, it lacks any direction as to how you can manage your cloud code nicely.
 
-The solution is very simple - [**RequireJS**](http://requirejs.org).
-
-For anyone who hasn't worked with RequireJS, it is a simple JS module loader that lets you manage dependencies in JS.
+The solution is very simple, Parse offers a way to manage dependencies in a fashion similar to - [**CommonJS**](http://wiki.commonjs.org/wiki/CommonJS), with something that they call [Modules](https://parse.com/docs/cloud_code_guide#modules).  
+For anyone who hasn't worked with CommonJS or the likes, it is a simple JS module loader that lets you manage dependencies in JS.
 
 Let's take for example this simple app with a player model and one cloud function:
 
