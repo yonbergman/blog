@@ -5,7 +5,7 @@ date: 2015-07-10T13:53:41+02:00
 ---
 
 I've come across a very neat trick for working with UIViewControllers, storyboards (or XIBs) and Swift.    
-It's a nice and easy way to remove all the setup gunk from your `viewDidLoad` methods in your ViewController's and move them to where they belong.
+It's a nice and easy way to remove all the setup gunk from your `viewDidLoad` methods in your ViewControllers and move them to where they belong.
 
 <!--more-->
 
