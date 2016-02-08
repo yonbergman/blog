@@ -60,10 +60,15 @@ projects:
     url: 'http://www.mark.my/words'
     image: '/images/projects/mark-my.png'
 
-  - name: 'Coffee.spec'
+  - name: 'CoffeeSpec'
     description: 'Create stunning coffee inforgraphics for your office'
-    url: 'http://coffee-spec.herokuapp.com/'
+    url: 'http://www.coffeespec.com/'
     image: '/images/projects/coffeespec.png'
+
+  - name: 'Gamenight.xyz'
+    description: 'Super simple RSVP scheduling for groups'
+    url: 'http://www.gamenight.xyz/'
+    image: '/images/projects/gamenight.png'
 
   - name: 'TLV-Streets'
     description: 'A mobile site that tells you the meaning of street names in Tel-Aviv. Written for the APP2YOU competition in 2013.'
@@ -80,10 +85,10 @@ projects:
     url: 'http://www.grndl.net/'
     image: '/images/projects/grndl.png'
 
-  - name: 'News Yeti'
-    description: "Quickly and easily create news bites, short and to the point mini news stories that you can share with people across the internet."
-    url: 'http://newsyeti.com/'
-    image: '/images/projects/news-yeti.png'
+  # - name: 'News Yeti'
+    # description: "Quickly and easily create news bites, short and to the point mini news stories that you can share with people across the internet."
+    # url: 'http://newsyeti.com/'
+    # image: '/images/projects/news-yeti.png'
 
 #############
   - name: 'Release Cycles'
