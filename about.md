@@ -10,7 +10,7 @@ header: true
 <h1 class='about-me'>About Yon</h1>
 
 Yonatan Bergman is a developer and an amateur designer who loves building cool stuff.  
-By day, he works as an mobile engineering manager at <a href='http://notninjas.com/'>PayPal's TLV Consumer Product Center</a> - a commando unit aiming to produce the next big (awesome) thing.  
+By day, he works as the engineering director at WeWork Digital Israel - a development team building what powers the magic of WeWork.
 By night, he works relentlessly on his side projects and plays probably too many board games.  
 
 Yon is based in Israel where he helps lead the Israeli Ruby scene,
