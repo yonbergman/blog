@@ -12,6 +12,9 @@ permalink: pretty
 exclude: ['Gemfile', 'Gemfile.lock']
 excerpt_separator: <!--more-->
 
+gems:
+  - jekyll-coffeescript
+
 
 # comments
 disqus_short_name: yon-line
@@ -57,7 +60,7 @@ projects:
 
   - name: 'Mark.my'
     description: 'The ultimate predictions platform - Make your prediction now, say "I told you so" later.'
-    url: 'http://www.mark.my/words'
+    url: 'http://markmy.herokuapp.com/words'
     image: '/images/projects/mark-my.png'
 
   - name: 'CoffeeSpec'
