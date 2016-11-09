@@ -3,3 +3,4 @@ _deploy.yml
 .idea
 public
 .DS_Store
+s3_website.yml
