@@ -1,0 +1,48 @@
+talks:
+  - name: "Level Up - Building High Performing Team Culture"
+    when: 'June 16th 2019'
+    where: 'Reversim 2019'
+    link: 'https://speakerdeck.com/yonbergman/level-up-building-high-performing-team-culture'
+    image: '/images/talks/level-up.png'
+  
+  - name: "Agile Hiring at Scale"
+    when: 'May 21th 2019'
+    where: 'Agile Israel'
+    link: 'https://speakerdeck.com/yonbergman/agile-hiring-at-scale'
+    image: '/images/talks/agile-hiring-at-scale.png'
+    
+  - name: "A Whole New World"
+    when: 'Feb 11th 2019'
+    where: 'Wix Meetup Haifa'
+    link: 'https://speakerdeck.com/yonbergman/a-whole-new-world-taking-your-app-global-and-living-to-tell-the-tale'
+    image: '/images/talks/a-whole-new-world.png'
+  
+  - name: "Keep interviewing and nobody explodes"
+    when: 'October 8th 2018'
+    where: 'Reversim 2018'
+    link: '/2018/11/29/keep-interviewing'
+    image: '/images/talks/keep-interviewing.png'
+
+  - name: 'Meiosis in Rails Apps'
+    when: 'November 4th 2014'
+    where: 'Rails Israel 2014'
+    link: '/2014/11/09/meiosis-in-rails-apps'
+    image: '/images/talks/meiosis-in-rails-apps.png'
+
+  - name: 'Building Board Games with Ruby'
+    when: '19th–20th September 2014'
+    where: 'GoGaRuCo 2014'
+    link: '/2014/10/01/building-board-games-with-ruby-gogaruco-2014/'
+    image: '/images/talks/building-board-games-with-ruby.png'
+
+  - name: 'CREATE • LEARN • DEVELOP'
+    when: 'October 9th, 2013'
+    where: 'Rails Israel 2013'
+    link: '/2013/10/29/create-learn-develop-talk-from-railsisrael-2013/'
+    image: '/images/talks/create-learn-develop.png'
+
+  - name: 'Trimming the fat from your controllers'
+    when: 'November 12th, 2012'
+    where: 'Rails Israel 2012'
+    link: '/2012/11/12/trimming-the-fat-from-your-controllers-slides/'
+    image: '/images/talks/trimming-the-fat-from-your-controllers.png'

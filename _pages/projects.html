@@ -1,0 +1,39 @@
+---
+layout: single
+title: "Projects"
+permalink: '/projects/'
+author_profile: true
+---
+<style>
+  .project {
+    height: 200px;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  .project .image {
+    margin-right: 16px;
+    width: 280px;
+  }
+  .project .content {
+    flex: 1;
+  }
+
+  .project dd {
+    margin-left: 0;
+  }
+</style>
+
+<dl class="projects">
+  {% for project in site.data.projects.projects %}
+  {% if project.category %}
+  <h2>{{ project.category }}</h2>
+  {% endif %}
+  <div class="project">
+    <a class='image' href="{{ project.url }}"><img src="{{project.image}}"></img></a>
+    <div class='content'>
+    <dt><h3><a href="{{ project.url }}">{{ project.name}}</a></h3></dt>
+    <dd><p>{{ project.description}}</p></dd>
+  </div>
+  </div>
+  {% endfor %}
+</dl>

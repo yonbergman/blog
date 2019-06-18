@@ -1,0 +1,36 @@
+---
+layout: single
+title: "Talks"
+permalink: '/talks/'
+author_profile: true
+---
+<style>
+  .talk {
+    height: 200px;
+    margin-bottom: 16px;
+    display: flex;
+  }
+  .talk .image {
+    margin-right: 16px;
+    width: 280px;
+  }
+  .talk .content {
+    flex: 1;
+  }
+
+  .talk dd {
+    margin-left: 0;
+  }
+</style>
+
+<dl class="talks">
+  {% for talk in site.data.talks.talks %}
+  <div class="talk">
+    <a class='image' href="{{ talk.link }}"><img src="{{ talk.image }}"></img></a>
+    <div class='content'>
+      <dt><h3><a href="{{ talk.link }}">{{ talk.name }}</a></h3></dt>
+      <dd><span>{{ talk.where }}</span><br/><small>{{ talk.when }}</small></dd>
+    </div>
+  </div>
+  {% endfor %}
+</dl>

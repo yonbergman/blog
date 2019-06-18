@@ -1,0 +1,88 @@
+title: Yon Bergman
+title_separator: "|"
+name: "Yon Bergman"
+masthead_title: " "
+
+email: contact@yonbergman.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Yonatan Bergman is an experienced software engineer and manager with an eye for design and a passion for building great products and teams. Focused on consistently improving and nurturing team culture and productivity, as well as empowering those around him.
+baseurl: "" # the subpath of your site, e.g. /blog
+repository: "yonbergman/blog"
+url: "http://www.yonbergman.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: yonbergman
+github_username:  yonbergman
+layout: single
+include: ["_pages"]
+permalink: "/:year/:month/:day/:title/"
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+
+# Build settings
+markdown: kramdown
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" 
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-archives
+
+
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+
+defaults:
+ # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      author_profile: true
+      comments: true
+      related: true
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
+author:
+  name: "Yon Bergman"
+  avatar: "/images/avatar.jpg"
+  bio: "I build great products and teams • VP Engineering @ WeWork (previously at PayPal, eBay)."
+  location: "Tel Aviv, Israel"
+  home: '/'
+  links:
+    - label: "yonbergman.com"
+      icon: "fas fa-fw fa-link"
+      url: "http://yonbergman.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/yonbergman"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/yonbergman"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/yonbergman/"
+    - label: 'Contact Me'
+      icon: "fa-fw fas fa-envelope-square"
+      url: "mailto:contact@yonbergman.com"
+
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

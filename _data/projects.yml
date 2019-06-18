@@ -1,0 +1,91 @@
+projects:
+  - name: 'Mobile & Beer'
+    description: 'A Podcast about mobile development (iOS, Android and Web) with friends and beer (in Hebrew).'
+    url: 'http://mobileandbeer.com/'
+    image: '/images/projects/mobile-and-beer.png'
+
+#############
+  - name: 'Makom-Tov'
+    description: 'A site and mobile app that helps you find the best seats in the cinema (in Hebrew)'
+    url: 'http://makom-tov.co.il/'
+    image: '/images/projects/makom-tov.png'
+    category: 'Sites & Apps'
+
+  - name: 'Mark.my'
+    description: 'The ultimate predictions platform - Make your prediction now, say "I told you so" later.'
+    url: 'http://markmy.yonbergman.com/'
+    image: '/images/projects/mark-my.png'
+
+  - name: 'CoffeeSpec'
+    description: 'Create stunning coffee inforgraphics for your office'
+    url: 'http://coffeespec.yonbergman.com/'
+    image: '/images/projects/coffeespec.png'
+
+  - name: 'Gamenight.xyz'
+    description: 'Super simple RSVP scheduling for groups'
+    url: 'http://www.gamenight.xyz/'
+    image: '/images/projects/gamenight.png'
+
+  - name: 'TLV-Streets'
+    description: 'A mobile site that tells you the meaning of street names in Tel-Aviv. Written for the APP2YOU competition in 2013.'
+    url: 'http://tlv-streets.yonbergman.com/'
+    image: '/images/projects/tlv-streets.png'
+
+  - name: 'NetConsole'
+    description: "A card reference app for Fantasy Flight's Android: Netrunner LCG."
+    url: 'https://itunes.apple.com/us/app/netconsole-card-browser-for/id933546332?mt=8'
+    image: '/images/projects/netconsole.png'
+
+  - name: 'GRNDL.net'
+    description: "A suite of Netrunner related sideprojects."
+    url: 'http://www.grndl.net/'
+    image: '/images/projects/grndl.png'
+
+#############
+  - name: 'Release Cycles'
+    description: 'An abstract racing game where you fight against the clock and the computer to get as far as you can in a products life-cycle. Won the Github Game Off 2012'
+    url: 'http://release-cycles.yonbergman.com/'
+    image: '/images/projects/release-cycles.png'
+    category: 'Games'
+
+  - name: 'CHANG€'
+    description: 'An intense game about the extreme life of supermarket cashiers. Runner-Up in the GitHub Game Off 2013'
+    url: 'http://change-game.herokuapp.com/'
+    image: '/images/projects/change.png'
+
+  - name: 'The Blind Heist'
+    description: "A Global Game Jam 2014 where two players work together to steal a diamond, one can't see the other can't control the character"
+    url: 'http://globalgamejam.org/2014/games/blind-heist'
+    image: '/images/projects/blind-heist.png'
+
+  - name: 'Missiles & Microchips'
+    description: "A board game i'm currently developing, more info coming soon"
+    url: '/missiles_and_microchips/'
+    image: '/images/projects/missiles-and-microchips.png'
+
+  - name: 'AppAtk'
+    description: "A small tower defense game, right on your home screen!.<br/>Built for Ludum Dare 31"
+    url: 'http://rothschildgames.github.io/appatk/'
+    image: '/images/projects/appatk.png'
+
+  - name: 'Paperwork'
+    description: "A fun little bureaucracy simulator.<br/>Built for Ludum Dare 32"
+    url: 'http://rothschildgames.github.io/paperwork/'
+    image: '/images/projects/paperwork.png'
+
+#############
+  - name: 'Enumify'
+    description: 'Enumify adds an enum command to all ActiveRecord models which enables you to work with string attributes as if they were enums.'
+    url: 'https://github.com/yonbergman/enumify'
+    image: '/images/projects/enumify.png'
+    category: 'Gems & Utilities'
+
+  - name: 'ORLY?'
+    description: 'A small utility that notifies you when you need to run bundle install or db:migrate'
+    url: 'https://github.com/yonbergman/orly'
+    image: '/images/projects/orly.png'
+
+  - name: 'Controller Support'
+    description: "Controller oriented mixins (modules) for Rails that can help you extract behaviour from controllers into shared resources"
+    url: 'https://github.com/yonbergman/controller_support'
+    image: '/images/projects/controller-support.png'
