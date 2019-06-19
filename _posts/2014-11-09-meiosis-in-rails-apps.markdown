@@ -2,7 +2,10 @@
 layout: single
 title: "Meiosis in Rails Apps"
 date: 2014-11-09T22:36:35+02:00
-tags: talks, rails, ruby
+tags: 
+  - talks
+  - rails
+  - ruby
 ---
 
 After coming back from an exiting trip to the US and talking at GOGARUCO I had the chance to give a more technical talk this year in my own city of Tel-Aviv.
