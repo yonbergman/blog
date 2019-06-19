@@ -10,10 +10,17 @@ author_profile: true
     margin-bottom: 16px;
     display: flex;
   }
+  
   .project .image {
     margin-right: 16px;
     width: 280px;
   }
+
+  @media (max-width: 64em) {
+    .project { height: 100px }
+    .project .image { width: 140px }
+  }
+
   .project .content {
     flex: 1;
   }

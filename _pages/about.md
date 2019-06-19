@@ -3,11 +3,12 @@ layout: splash
 title: false
 permalink: /about/
 ---
-<div class='author__avatar' style="margin-top:15px">
-  <img src='/images/avatar.jpg' class='big-avatar'/>
+<div style='text-align: center'>
+  <div class='author__avatar' style="margin-top:15px">
+    <img src='/images/avatar.jpg' class='big-avatar'/>
+  </div>
+  <h1 class='about-me'>About Yon</h1>
 </div>
-<h1 class='about-me'>About Yon</h1>
-
 Yonatan Bergman is an experienced software engineer and manager with an eye for design and a passion for building great products and teams. Focused on consistently improving and nurturing team culture and productivity, as well as empowering those around him.
 
 Yon is a VP of Engineering @ WeWork Technology, based out of Tel Aviv, Israel where he helps lead the Israeli Ruby scene,
