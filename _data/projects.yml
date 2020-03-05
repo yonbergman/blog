@@ -11,6 +11,11 @@ projects:
     image: '/images/projects/makom-tov.png'
     category: 'Sites & Apps'
 
+  - name: 'TLV-Streets'
+    description: 'A mobile site that tells you the meaning of street names in Tel-Aviv. Written for the APP2YOU competition in 2013.'
+    url: 'http://tlv-streets.yonbergman.com/'
+    image: '/images/projects/tlv-streets.png'
+
   - name: 'Mark.my'
     description: 'The ultimate predictions platform - Make your prediction now, say "I told you so" later.'
     url: 'http://markmy.yonbergman.com/'
@@ -20,21 +25,6 @@ projects:
     description: 'Create stunning coffee inforgraphics for your office'
     url: 'http://coffeespec.yonbergman.com/'
     image: '/images/projects/coffeespec.png'
-
-  - name: 'Gamenight.xyz'
-    description: 'Super simple RSVP scheduling for groups'
-    url: 'http://www.gamenight.xyz/'
-    image: '/images/projects/gamenight.png'
-
-  - name: 'TLV-Streets'
-    description: 'A mobile site that tells you the meaning of street names in Tel-Aviv. Written for the APP2YOU competition in 2013.'
-    url: 'http://tlv-streets.yonbergman.com/'
-    image: '/images/projects/tlv-streets.png'
-
-  - name: 'NetConsole'
-    description: "A card reference app for Fantasy Flight's Android: Netrunner LCG."
-    url: 'https://itunes.apple.com/us/app/netconsole-card-browser-for/id933546332?mt=8'
-    image: '/images/projects/netconsole.png'
 
   - name: 'GRNDL.net'
     description: "A suite of Netrunner related sideprojects."
@@ -57,11 +47,6 @@ projects:
     description: "A Global Game Jam 2014 where two players work together to steal a diamond, one can't see the other can't control the character"
     url: 'http://globalgamejam.org/2014/games/blind-heist'
     image: '/images/projects/blind-heist.png'
-
-  - name: 'Missiles & Microchips'
-    description: "A board game i'm currently developing, more info coming soon"
-    url: '/missiles_and_microchips/'
-    image: '/images/projects/missiles-and-microchips.png'
 
   - name: 'AppAtk'
     description: "A small tower defense game, right on your home screen!.<br/>Built for Ludum Dare 31"
