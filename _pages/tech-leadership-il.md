@@ -17,7 +17,7 @@ Israel has a pretty amazing talent pool, with a lot of support and communities f
 But when people advance in their career and reach leadership positions they don’t always have the tools, training and support to continue to grow.   
 We want to change that and build a community where Israeli engineering leaders can share, learn to build high performing teams, apply the best tech and tools for the job, and thrive as they meet the challenges of software engineering leadership.
 
-We’ve decided to piggy-back off another great leadership community, Rand's leadership Slack and host our own Israeli community as a private Slack channel as the first step.  
+We’ve decided to piggy-back off another great leadership community, Rand's Leadership Slack and host our own Israeli community as a private Slack channel as the first step.  
 This gives you the benefit of not joining one community, but two ;) 
 
 ## Who is this for?
