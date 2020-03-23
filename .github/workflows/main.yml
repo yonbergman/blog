@@ -28,7 +28,7 @@ jobs:
     - name: Deploy
       uses: docker://justinharringa/s3_website:master
       with:
-        args: 'push --site build'
+        args: 'push --site _site'
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
