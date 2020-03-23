@@ -2,8 +2,6 @@
 layout: splash
 title: false
 permalink: /about/
-header:
-  og_image: '/images/avatar.jpg'
 ---
 <div style='text-align: center'>
   <div class='author__avatar' style="margin-top:15px">

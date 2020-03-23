@@ -3,6 +3,8 @@ layout: splash
 title: "Tech Leadership IL"
 permalink: /tech-leadership-IL/
 description: A community where Israeli tech leaders can share, learn to build high performing teams, apply the best tech and tools for the job, and thrive as they meet the challenges of software engineering leadership.
+header:
+  og_image: '/images/tlil.jpg'
 ---
 <div style='text-align: center; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 42px; margin-top: 21px;'>
   <img src='/images/tlil.png' style="width: 120px; height: 120px; display: block;"/>
