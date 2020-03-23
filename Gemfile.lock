@@ -162,6 +162,7 @@ DEPENDENCIES
   jekyll-compose
   jekyll-feed (~> 0.6)
   jekyll-include-cache
+  jekyll-watch
   minimal-mistakes-jekyll
   s3_website
   tzinfo-data

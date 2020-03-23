@@ -12,6 +12,7 @@ group :jekyll_plugins do
   gem 'jekyll-admin'
   gem 'jekyll-include-cache'
   gem 'jekyll-archives' 
+  gem 'jekyll-watch' 
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
