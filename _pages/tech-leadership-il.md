@@ -2,6 +2,7 @@
 layout: splash
 title: "Tech Leadership IL"
 permalink: /tech-leadership-IL/
+description: A community where Israeli tech leaders can share, learn to build high performing teams, apply the best tech and tools for the job, and thrive as they meet the challenges of software engineering leadership.
 ---
 <div style='text-align: center; display: flex; flex-direction: row; align-items: center; justify-content: center; margin-bottom: 42px; margin-top: 21px;'>
   <img src='/images/tlil.png' style="width: 120px; height: 120px; display: block;"/>
@@ -15,7 +16,7 @@ permalink: /tech-leadership-IL/
 We (*Aviv Ben-Yosef and Yon Bergman*) have been talking recently about leadership in Israel.  
 Israel has a pretty amazing talent pool, with a lot of support and communities for engineers.  
 But when people advance in their career and reach leadership positions they don’t always have the tools, training and support to continue to grow.   
-We want to change that and build a community where Israeli engineering leaders can share, learn to build high performing teams, apply the best tech and tools for the job, and thrive as they meet the challenges of software engineering leadership.
+We want to change that and build a community where Israeli tech leaders can share, learn to build high performing teams, apply the best tech and tools for the job, and thrive as they meet the challenges of software engineering leadership.
 
 We’ve decided to piggy-back off another great leadership community, Rand's Leadership Slack and host our own Israeli community as a private Slack channel as the first step.  
 This gives you the benefit of not joining one community, but two ;) 
