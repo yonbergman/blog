@@ -2,7 +2,7 @@ talks:
   - name: "Level Up - Building High Performing Team Culture"
     when: 'June 16th 2019'
     where: 'Reversim 2019'
-    link: 'https://speakerdeck.com/yonbergman/level-up-building-high-performing-team-culture'
+    link: '/2019/06/16/high-performing-team-culture'
     image: '/images/talks/level-up.png'
   
   - name: "Agile Hiring at Scale"
@@ -14,7 +14,7 @@ talks:
   - name: "A Whole New World"
     when: 'Feb 11th 2019'
     where: 'Wix Meetup Haifa'
-    link: 'https://speakerdeck.com/yonbergman/a-whole-new-world-taking-your-app-global-and-living-to-tell-the-tale'
+    link: '/2019/02/11/a-whole-new-world'
     image: '/images/talks/a-whole-new-world.png'
   
   - name: "Keep interviewing and nobody explodes"
