@@ -5,6 +5,7 @@ gem "jekyll", "~> 3.9.2"
 gem 'minimal-mistakes-jekyll'
 
 gem 's3_website'
+gem "kramdown-parser-gfm" 
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

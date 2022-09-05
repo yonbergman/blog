@@ -67,6 +67,8 @@ GEM
     jmespath (1.6.1)
     kramdown (2.4.0)
       rexml
+    kramdown-parser-gfm (1.1.0)
+      kramdown (~> 2.0)
     liquid (4.0.3)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -117,6 +119,7 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-include-cache
   jekyll-watch
+  kramdown-parser-gfm
   minimal-mistakes-jekyll
   s3_website
   tzinfo-data
