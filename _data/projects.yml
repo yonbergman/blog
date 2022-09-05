@@ -12,12 +12,12 @@ projects:
     category: 'Sites & Apps'
 
   - name: 'TLV-Streets'
-    description: 'A mobile site that tells you the meaning of street names in Tel-Aviv. Written for the APP2YOU competition in 2013.'
+    description: 'A site that tells you the meaning of street names in Tel-Aviv. (Written for the APP2YOU competition in 2013.)'
     url: 'http://tlv-streets.yonbergman.com/'
     image: '/images/projects/tlv-streets.png'
 
   - name: 'CoffeeSpec'
-    description: 'Create stunning coffee inforgraphics for your office'
+    description: 'Brew up some personality for your office with our coffee diagram posters'
     url: 'http://coffeespec.yonbergman.com/'
     image: '/images/projects/coffeespec.png'
 
@@ -27,6 +27,7 @@ projects:
     description: "A small tower defense game, right on your home screen!.<br/>Built for Ludum Dare 31"
     url: 'http://rothschildgames.github.io/appatk/'
     image: '/images/projects/appatk.png'
+    category: 'Games'
 
   - name: 'Paperwork'
     description: "A fun little bureaucracy simulator.<br/>Built for Ludum Dare 32"
@@ -37,7 +38,7 @@ projects:
     description: 'An abstract racing game where you fight against the clock and the computer to get as far as you can in a products life-cycle. Won the Github Game Off 2012'
     url: 'https://github.com/RothschildGames/release-cycles'
     image: '/images/projects/release-cycles.png'
-    category: 'Games'
+    
 
   - name: 'CHANG€'
     description: 'An intense game about the extreme life of supermarket cashiers. Runner-Up in the GitHub Game Off 2013'
