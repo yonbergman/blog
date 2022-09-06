@@ -18,7 +18,7 @@ projects:
 
   - name: 'CoffeeSpec'
     description: 'Brew up some personality for your office with our coffee diagram posters'
-    url: 'http://coffeespec.yonbergman.com/'
+    url: 'http://coffee.yonbergman.com/'
     image: '/images/projects/coffeespec.png'
 
 
