@@ -10,12 +10,12 @@ projects:
     description: 'An app that helps you create a personalized bedtime story for your child.'
     url: 'https://www.getmybedtimestory.com/'
     image: '/images/projects/my-bedtime-story.png'
+    category: 'Sites & Apps'
   
   - name: 'Ask Llama'
     description: 'Llama is an AI-powered app that provides parents with instant, age-appropriate answers to their kids’ curious questions.'
     url: 'https://www.justaskllama.com/'
     image: '/images/projects/ask-llama.png'
-    category: 'Sites & Apps'
 
   - name: 'Guesstionary'
     description: 'The daily word guessing game that tests your vocabulary and teaches you new words! (Updated daily)'
