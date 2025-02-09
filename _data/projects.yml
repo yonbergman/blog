@@ -5,11 +5,32 @@ projects:
     image: '/images/projects/mobile-and-beer.png'
 
 #############
+
+  - name: 'My Bedtime Story'
+    description: 'An app that helps you create a personalized bedtime story for your child.'
+    url: 'https://www.getmybedtimestory.com/'
+    image: '/images/projects/my-bedtime-story.png'
+  
+  - name: 'Ask Llama'
+    description: 'Llama is an AI-powered app that provides parents with instant, age-appropriate answers to their kids’ curious questions.'
+    url: 'https://www.justaskllama.com/'
+    image: '/images/projects/ask-llama.png'
+    category: 'Sites & Apps'
+
+  - name: 'Guesstionary'
+    description: 'The daily word guessing game that tests your vocabulary and teaches you new words! (Updated daily)'
+    url: 'https://www.guesstionary.com/'
+    image: '/images/projects/guesstionary.png'
+
+  - name: 'Connections in Hebrew'
+    description: 'The hebrew version of the popular game Connections, where you have to find the connection between words. (Updated daily)'
+    url: 'https://connections.yonbergman.com'
+    image: '/images/projects/connections.png'
+
   - name: 'Makom-Tov'
     description: 'A site and mobile app that helps you find the best seats in the cinema (in Hebrew)'
     url: 'http://makom-tov.co.il/'
     image: '/images/projects/makom-tov.png'
-    category: 'Sites & Apps'
 
   - name: 'TLV-Streets'
     description: 'A site that tells you the meaning of street names in Tel-Aviv. (Written for the APP2YOU competition in 2013.)'
@@ -56,7 +77,7 @@ projects:
     description: 'Enumify adds an enum command to all ActiveRecord models which enables you to work with string attributes as if they were enums.'
     url: 'https://github.com/yonbergman/enumify'
     image: '/images/projects/enumify.png'
-    category: 'Gems & Utilities'
+    category: 'Libraries'
 
   - name: 'ORLY?'
     description: 'A small utility that notifies you when you need to run bundle install or db:migrate'

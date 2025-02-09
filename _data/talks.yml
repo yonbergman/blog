@@ -1,4 +1,10 @@
 talks:
+  - name: "From Sprints to Cycles: Revolutionizing Agile with Empathy"
+    when: "March 5th 2024"
+    where: "Reversim 2024"
+    link: "/2024/03/05/from-sprints-to-cycles"
+    image: "/images/talks/from-sprints-to-cycles.png"
+    
   - name: "Level Up - Building High Performing Team Culture"
     when: 'June 16th 2019'
     where: 'Reversim 2019'

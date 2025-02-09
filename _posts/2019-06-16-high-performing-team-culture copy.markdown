@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Level Up - Building High Performing Team Culture"
+title: "From Sprints to Cycles: Revolutionizing Agile with Empathy"
 date: 2019-06-16
 tags: 
   - talks
